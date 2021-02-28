@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* containerクラスのCSSを指定してください */
+.container{
+  width:1170px;
+  padding:0px 15px;
+  margin:0 auto;
+}
+
+
+/* top-wrapperクラスのCSSを指定してください */
+.top-wrapper{
+  padding:180px 0px 100px 0px;
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  color:white;
+  background-size:cover;
+}
+

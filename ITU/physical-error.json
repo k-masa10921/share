@@ -1,0 +1,547 @@
+{
+  "computes": [
+    {
+      "status": "enabled",
+      "service": {
+        "host": "openstack-wf",
+        "disabled_reason": null,
+        "id": 16
+      },
+      "vcpus_used": 20,
+      "hypervisor_type": "QEMU",
+      "local_gb_used": 0,
+      "vcpus": 48,
+      "hypervisor_hostname": "openstack-wf",
+      "memory_mb_used": 41472,
+      "memory_mb": 257790,
+      "current_workload": 0,
+      "state": "up",
+      "host_ip": "172.16.1.67",
+      "cpu_info": {
+        "vendor": "Intel",
+        "model": "Broadwell-IBRS",
+        "arch": "x86_64",
+        "features": [
+          "pge",
+          "avx",
+          "xsaveopt",
+          "clflush",
+          "sep",
+          "rtm",
+          "tsc_adjust",
+          "tsc-deadline",
+          "dtes64",
+          "invpcid",
+          "tsc",
+          "fsgsbase",
+          "xsave",
+          "smap",
+          "vmx",
+          "erms",
+          "xtpr",
+          "cmov",
+          "hle",
+          "smep",
+          "ssse3",
+          "est",
+          "pat",
+          "monitor",
+          "smx",
+          "pbe",
+          "lm",
+          "msr",
+          "adx",
+          "3dnowprefetch",
+          "nx",
+          "fxsr",
+          "syscall",
+          "tm",
+          "sse4.1",
+          "pae",
+          "sse4.2",
+          "pclmuldq",
+          "cx16",
+          "pcid",
+          "fma",
+          "vme",
+          "popcnt",
+          "mmx",
+          "osxsave",
+          "cx8",
+          "mce",
+          "de",
+          "rdtscp",
+          "ht",
+          "dca",
+          "lahf_lm",
+          "abm",
+          "md-clear",
+          "pdcm",
+          "mca",
+          "pdpe1gb",
+          "apic",
+          "sse",
+          "f16c",
+          "pse",
+          "ds",
+          "invtsc",
+          "pni",
+          "tm2",
+          "avx2",
+          "aes",
+          "sse2",
+          "ss",
+          "ds_cpl",
+          "arat",
+          "bmi1",
+          "bmi2",
+          "acpi",
+          "spec-ctrl",
+          "fpu",
+          "ssbd",
+          "pse36",
+          "mtrr",
+          "movbe",
+          "rdrand",
+          "x2apic",
+          "rdseed"
+        ],
+        "topology": {
+          "cores": 12,
+          "cells": 2,
+          "threads": 2,
+          "sockets": 1
+        }
+      },
+      "running_vms": 5,
+      "free_disk_gb": 732,
+      "hypervisor_version": 2011001,
+      "disk_available_least": 632,
+      "local_gb": 732,
+      "free_ram_mb": 216318,
+      "id": 1,
+      "metrics": {
+        "compute-node": {
+          "compute-node-cpu-frequency": 1828.0,
+          "compute-node-cpu-idle-percent": 66.0,
+          "compute-node-cpu-idle-time": 4.4046656128e+17,
+          "compute-node-cpu-iowait-percent": 0.0,
+          "compute-node-cpu-iowait-time": 22861980000000.0,
+          "compute-node-cpu-kernel-percent": 7.000000000000001,
+          "compute-node-cpu-kernel-time": 4.569352415e+16,
+          "compute-node-cpu-percent": 33.0,
+          "compute-node-cpu-user-percent": 26.0,
+          "compute-node-cpu-user-time": 1.4722956758e+17
+        },
+        "hardware": {
+          "hardware-cpu-load-15min": 16.47,
+          "hardware-cpu-load-1min": 18.02,
+          "hardware-cpu-load-5min": 16.21,
+          "hardware-cpu-util": 21.0,
+          "hardware-disk-size-total": 0.0,
+          "hardware-disk-size-used": 0.0,
+          "hardware-memory-buffer": 854720.0,
+          "hardware-memory-cached": 9489992.0,
+          "hardware-memory-swap-avail": 8388092.0,
+          "hardware-memory-swap-total": 8388604.0,
+          "hardware-memory-total": 263977692.0,
+          "hardware-memory-used": 61030304.0,
+          "hardware-network-ip-incoming-datagrams": 2343018819.0,
+          "hardware-network-ip-outgoing-datagrams": 2144294089.0,
+          "hardware-system_stats-cpu-idle": 57.0,
+          "hardware-system_stats-io-incoming-blocks": 191343890.0,
+          "hardware-system_stats-io-outgoing-blocks": 2261717600.0
+        },
+        "hardware-disk": [
+          {
+            "name": "_dev_nvme0n1p2",
+            "hardware-disk-size-total": 767579928.0,
+            "hardware-disk-size-used": 22971248.0
+          },
+          {
+            "name": "_dev_nvme0n1p1",
+            "hardware-disk-size-total": 523248.0,
+            "hardware-disk-size-used": 6152.0
+          },
+          {
+            "name": "nvme0n1",
+            "hardware-disk-read-bytes": 3467000832.0,
+            "hardware-disk-read-requests": 18351613.0,
+            "hardware-disk-write-bytes": 692510720.0,
+            "hardware-disk-write-requests": 1020066913.0
+          },
+          {
+            "name": "loop0",
+            "hardware-disk-read-bytes": 1523712.0,
+            "hardware-disk-read-requests": 335.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop4",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "tmpfs",
+            "hardware-disk-size-total": 5120.0,
+            "hardware-disk-size-used": 0.0
+          },
+          {
+            "name": "loop5",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop6",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop2",
+            "hardware-disk-read-bytes": 8192.0,
+            "hardware-disk-read-requests": 5.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "nvme0n1p1",
+            "hardware-disk-read-bytes": 54769664.0,
+            "hardware-disk-read-requests": 2862.0,
+            "hardware-disk-write-bytes": 1024.0,
+            "hardware-disk-write-requests": 2.0
+          },
+          {
+            "name": "nvme0n1p2",
+            "hardware-disk-read-bytes": 3346402816.0,
+            "hardware-disk-read-requests": 18344961.0,
+            "hardware-disk-write-bytes": 692509696.0,
+            "hardware-disk-write-requests": 1020066911.0
+          },
+          {
+            "name": "loop3",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop1",
+            "hardware-disk-read-bytes": 10258432.0,
+            "hardware-disk-read-requests": 8897.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "_dev_nvme0n1p2",
+            "hardware-disk-size-total": 767579928.0,
+            "hardware-disk-size-used": 22971248.0
+          },
+          {
+            "name": "_dev_nvme0n1p1",
+            "hardware-disk-size-total": 523248.0,
+            "hardware-disk-size-used": 6152.0
+          },
+          {
+            "name": "loop7",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "nvme0n1",
+            "hardware-disk-read-bytes": 3467000832.0,
+            "hardware-disk-read-requests": 18351613.0,
+            "hardware-disk-write-bytes": 692510720.0,
+            "hardware-disk-write-requests": 1020066913.0
+          },
+          {
+            "name": "tmpfs",
+            "hardware-disk-size-total": 5120.0,
+            "hardware-disk-size-used": 0.0
+          },
+          {
+            "name": "nvme0n1p2",
+            "hardware-disk-read-bytes": 3346402816.0,
+            "hardware-disk-read-requests": 18344961.0,
+            "hardware-disk-write-bytes": 692509696.0,
+            "hardware-disk-write-requests": 1020066911.0
+          },
+          {
+            "name": "loop4",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop6",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop5",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop1",
+            "hardware-disk-read-bytes": 10258432.0,
+            "hardware-disk-read-requests": 8897.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop3",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop0",
+            "hardware-disk-read-bytes": 1523712.0,
+            "hardware-disk-read-requests": 335.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "nvme0n1p1",
+            "hardware-disk-read-bytes": 54769664.0,
+            "hardware-disk-read-requests": 2862.0,
+            "hardware-disk-write-bytes": 1024.0,
+            "hardware-disk-write-requests": 2.0
+          },
+          {
+            "name": "loop2",
+            "hardware-disk-read-bytes": 8192.0,
+            "hardware-disk-read-requests": 5.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          },
+          {
+            "name": "loop7",
+            "hardware-disk-read-bytes": 0.0,
+            "hardware-disk-read-requests": 0.0,
+            "hardware-disk-write-bytes": 0.0,
+            "hardware-disk-write-requests": 0.0
+          }
+        ],
+        "hardware-network": [
+
+        ],
+        "hardware-ipmi-fan": [
+          {
+            "name": "fan_4_(0x31)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_7_dutycycle_(0x3b)",
+            "hardware-ipmi-fan": 38.416
+          },
+          {
+            "name": "fan_1_dutycycle_(0x29)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_2_(0x2b)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_6_(0x37)",
+            "hardware-ipmi-fan": 38.42
+          },
+          {
+            "name": "fan_6_dutycycle_(0x38)",
+            "hardware-ipmi-fan": 38.416
+          },
+          {
+            "name": "fan_5_(0x34)",
+            "hardware-ipmi-fan": 30.58
+          },
+          {
+            "name": "fan_7_(0x3a)",
+            "hardware-ipmi-fan": 38.42
+          },
+          {
+            "name": "fan_1_(0x28)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_3_dutycycle_(0x2f)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_5_dutycycle_(0x35)",
+            "hardware-ipmi-fan": 30.576
+          },
+          {
+            "name": "fan_4_dutycycle_(0x32)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_3_(0x2e)",
+            "hardware-ipmi-fan": 19.6
+          },
+          {
+            "name": "fan_2_dutycycle_(0x2c)",
+            "hardware-ipmi-fan": 19.6
+          }
+        ],
+        "hardware-ipmi-temperature": [
+          {
+            "name": "37-fuse_(0x27)",
+            "hardware-ipmi-temperature": 42.0
+          },
+          {
+            "name": "11-ps_1_inlet_(0xd)",
+            "hardware-ipmi-temperature": 37.0
+          },
+          {
+            "name": "32-pci_2_zone_(0x22)",
+            "hardware-ipmi-temperature": 39.0
+          },
+          {
+            "name": "30-ilo_zone_(0x20)",
+            "hardware-ipmi-temperature": 42.0
+          },
+          {
+            "name": "19-ps_1_internal_(0x15)",
+            "hardware-ipmi-temperature": 53.0
+          },
+          {
+            "name": "34-hd_cntlr_zone_(0x24)",
+            "hardware-ipmi-temperature": 37.0
+          },
+          {
+            "name": "18-vr_p2_mem_(0x14)",
+            "hardware-ipmi-temperature": 33.0
+          },
+          {
+            "name": "03-cpu_2_(0x5)",
+            "hardware-ipmi-temperature": 52.0
+          },
+          {
+            "name": "06-p2_dimm_1-6_(0x8)",
+            "hardware-ipmi-temperature": 41.0
+          },
+          {
+            "name": "33-pci_3_zone_(0x23)",
+            "hardware-ipmi-temperature": 36.0
+          },
+          {
+            "name": "04-p1_dimm_1-6_(0x6)",
+            "hardware-ipmi-temperature": 37.0
+          },
+          {
+            "name": "16-vr_p1_mem_(0x12)",
+            "hardware-ipmi-temperature": 31.0
+          },
+          {
+            "name": "26-lom_(0x1c)",
+            "hardware-ipmi-temperature": 47.0
+          },
+          {
+            "name": "13-vr_p1_(0xf)",
+            "hardware-ipmi-temperature": 47.0
+          },
+          {
+            "name": "01-inlet_ambient_(0x3)",
+            "hardware-ipmi-temperature": 24.0
+          },
+          {
+            "name": "36-storage_batt_(0x26)",
+            "hardware-ipmi-temperature": 25.0
+          },
+          {
+            "name": "35-i_o_zone_(0x25)",
+            "hardware-ipmi-temperature": 33.0
+          },
+          {
+            "name": "22-pci_2_(0x18)",
+            "hardware-ipmi-temperature": 64.0
+          },
+          {
+            "name": "15-vr_p1_mem_(0x11)",
+            "hardware-ipmi-temperature": 33.0
+          },
+          {
+            "name": "14-vr_p2_(0x10)",
+            "hardware-ipmi-temperature": 50.0
+          },
+          {
+            "name": "10-chipset_(0xc)",
+            "hardware-ipmi-temperature": 38.0
+          },
+          {
+            "name": "17-vr_p2_mem_(0x13)",
+            "hardware-ipmi-temperature": 36.0
+          },
+          {
+            "name": "27-front_ambient_(0x1d)",
+            "hardware-ipmi-temperature": 28.0
+          },
+          {
+            "name": "07-p2_dimm_7-12_(0x9)",
+            "hardware-ipmi-temperature": 40.0
+          },
+          {
+            "name": "05-p1_dimm_7-12_(0x7)",
+            "hardware-ipmi-temperature": 34.0
+          },
+          {
+            "name": "24-hd_controller_(0x1a)",
+            "hardware-ipmi-temperature": 59.0
+          },
+          {
+            "name": "09-exp_bay_drive_(0xb)",
+            "hardware-ipmi-temperature": 35.0
+          },
+          {
+            "name": "02-cpu_1_(0x4)",
+            "hardware-ipmi-temperature": 40.0
+          },
+          {
+            "name": "31-pci_1_zone_(0x21)",
+            "hardware-ipmi-temperature": 41.0
+          },
+          {
+            "name": "28-p_s_2_zone_(0x1e)",
+            "hardware-ipmi-temperature": 46.0
+          },
+          {
+            "name": "29-battery_zone_(0x1f)",
+            "hardware-ipmi-temperature": 37.0
+          },
+          {
+            "name": "21-pci_1_(0x17)",
+            "hardware-ipmi-temperature": 66.0
+          }
+        ],
+        "hardware-ipmi-current": [
+          {
+            "name": "power_meter_(0x43)",
+            "hardware-ipmi-current": 235.0
+          }
+        ],
+        "hardware-ipmi-voltage": [
+
+        ]
+      }
+    }
+  ],
+  "time": 1593977280,
+  "tag": "physical-infrastructure-bgpnw2",
+  "@log_name": "physical-infrastructure-bgpnw2"
+}

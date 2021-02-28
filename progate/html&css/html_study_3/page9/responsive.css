@@ -1,0 +1,35 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  /* .btnのwidthを100%に指定してください */
+  .btn{
+    width:100%;
+  }
+
+  /* .facebookにmargin-bottom: 10px;を追加してください */
+  .facebook{
+    margin-bottom:10px;
+  }
+
+  /* .top-wrapperの中身を左寄せに、padding-topを130pxに指定してください */
+  .top-wrapper{
+    text-align:left;
+    padding-top:130px;
+  }
+
+}

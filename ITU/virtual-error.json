@@ -1,0 +1,1929 @@
+{
+  "projects": [
+    {
+      "name": "bgpnw2"
+    }
+  ],
+  "devices": [
+    {
+      "id": "bb7b904e-d3f9-4f12-bf7a-4497436d9901",
+      "name": "IntGW-01",
+      "flavor": {
+        "id": "d7cfbc8a-0643-4587-b09a-bc47774c8c5b",
+        "name": "bgp.router",
+        "ram": 8192,
+        "vcpus": 4,
+        "disk": 0
+      },
+      "image": {
+        "id": "4cca1723-2565-4beb-9b89-0ba2f677b726",
+        "name": "csr1kv-9.16.09.04",
+        "min_ram": 0,
+        "min_disk": 0,
+        "size": 919863296,
+        "status": "active",
+        "container_format": "bare",
+        "file": "/v2/images/4cca1723-2565-4beb-9b89-0ba2f677b726/file",
+        "disk_format": "qcow2",
+        "visibility": "public",
+        "created_at": "2020-01-17T02:49:37Z",
+        "updated_at": "2020-01-17T02:49:43Z",
+        "metrics": {
+          "image-size": 919863296.0
+        }
+      },
+      "status": "ACTIVE",
+      "vm_state": "active",
+      "power_state": 1,
+      "progress": 0,
+      "availability_zone": "nova",
+      "compute": "openstack-wf",
+      "instance_name": "instance-00000009",
+      "created": "2020-01-24T04:04:22Z",
+      "updated": "2020-07-04T11:17:56Z",
+      "metrics": {
+        "disk-device-allocation": 499712.0,
+        "disk-device-capacity": 499712.0,
+        "disk-device-read-bytes": 0.0,
+        "disk-device-read-bytes-rate": 0.0,
+        "disk-device-read-latency": 0.0,
+        "disk-device-read-requests": 0.0,
+        "disk-device-read-requests-rate": 0.0,
+        "disk-device-usage": 499712.0,
+        "disk-device-write-bytes": 0.0,
+        "disk-device-write-bytes-rate": 0.0,
+        "disk-device-write-latency": 0.0,
+        "disk-device-write-requests": 0.0,
+        "disk-device-write-requests-rate": 0.0,
+        "compute-instance-booting-time": 34.576838,
+        "cpu": 2.697177389e+16,
+        "cpu-delta": 145550000000.0,
+        "cpu_util": 60.88501809742847,
+        "disk-allocation": 47431680.0,
+        "disk-capacity": 8590434304.0,
+        "disk-ephemeral-size": 0.0,
+        "disk-read-bytes": 229376.0,
+        "disk-read-bytes-rate": 0.0,
+        "disk-read-requests": 23.0,
+        "disk-read-requests-rate": 0.0,
+        "disk-root-size": 0.0,
+        "disk-usage": 47489024.0,
+        "disk-write-bytes": 2597741568.0,
+        "disk-write-bytes-rate": 0.0,
+        "disk-write-requests": 437904.0,
+        "disk-write-requests-rate": 0.0,
+        "memory": 8192.0,
+        "memory-resident": 4016.0,
+        "vcpus": 4.0
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "fe46a471-965b-4447-9fa1-aa1721233627",
+      "name": "IntGW-02",
+      "flavor": {
+        "id": "d7cfbc8a-0643-4587-b09a-bc47774c8c5b",
+        "name": "bgp.router",
+        "ram": 8192,
+        "vcpus": 4,
+        "disk": 0
+      },
+      "image": {
+        "id": "4cca1723-2565-4beb-9b89-0ba2f677b726",
+        "name": "csr1kv-9.16.09.04",
+        "min_ram": 0,
+        "min_disk": 0,
+        "size": 919863296,
+        "status": "active",
+        "container_format": "bare",
+        "file": "/v2/images/4cca1723-2565-4beb-9b89-0ba2f677b726/file",
+        "disk_format": "qcow2",
+        "visibility": "public",
+        "created_at": "2020-01-17T02:49:37Z",
+        "updated_at": "2020-01-17T02:49:43Z",
+        "metrics": {
+          "image-size": 919863296.0
+        }
+      },
+      "status": "ACTIVE",
+      "vm_state": "active",
+      "power_state": 1,
+      "progress": 0,
+      "availability_zone": "nova",
+      "compute": "openstack-wf",
+      "instance_name": "instance-0000000a",
+      "created": "2020-01-24T04:04:49Z",
+      "updated": "2020-07-04T11:28:22Z",
+      "metrics": {
+        "disk-device-allocation": 499712.0,
+        "disk-device-capacity": 499712.0,
+        "disk-device-read-bytes": 1081776.0,
+        "disk-device-read-bytes-rate": 0.0,
+        "disk-device-read-latency": 15585759.0,
+        "disk-device-read-requests": 62.0,
+        "disk-device-read-requests-rate": 0.0,
+        "disk-device-usage": 499712.0,
+        "disk-device-write-bytes": 0.0,
+        "disk-device-write-bytes-rate": 0.0,
+        "disk-device-write-latency": 0.0,
+        "disk-device-write-requests": 0.0,
+        "disk-device-write-requests-rate": 0.0,
+        "compute-instance-booting-time": 33.773261,
+        "cpu": 2.513567366e+16,
+        "cpu-delta": 148060000000.0,
+        "cpu_util": 61.934976155996296,
+        "disk-allocation": 54902784.0,
+        "disk-capacity": 8590434304.0,
+        "disk-ephemeral-size": 0.0,
+        "disk-read-bytes": 1145905584.0,
+        "disk-read-bytes-rate": 0.0,
+        "disk-read-requests": 14251.0,
+        "disk-read-requests-rate": 0.0,
+        "disk-root-size": 0.0,
+        "disk-usage": 54960128.0,
+        "disk-write-bytes": 2546817536.0,
+        "disk-write-bytes-rate": 0.0,
+        "disk-write-requests": 408709.0,
+        "disk-write-requests-rate": 0.0,
+        "memory": 8192.0,
+        "memory-resident": 4684.0,
+        "vcpus": 4.0
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "4b51e7dd-a55b-4c58-8b17-f1f50fbd7c2e",
+      "name": "RR-01",
+      "flavor": {
+        "id": "d7cfbc8a-0643-4587-b09a-bc47774c8c5b",
+        "name": "bgp.router",
+        "ram": 8192,
+        "vcpus": 4,
+        "disk": 0
+      },
+      "image": {
+        "id": "4cca1723-2565-4beb-9b89-0ba2f677b726",
+        "name": "csr1kv-9.16.09.04",
+        "min_ram": 0,
+        "min_disk": 0,
+        "size": 919863296,
+        "status": "active",
+        "container_format": "bare",
+        "file": "/v2/images/4cca1723-2565-4beb-9b89-0ba2f677b726/file",
+        "disk_format": "qcow2",
+        "visibility": "public",
+        "created_at": "2020-01-17T02:49:37Z",
+        "updated_at": "2020-01-17T02:49:43Z",
+        "metrics": {
+          "image-size": 919863296.0
+        }
+      },
+      "status": "ACTIVE",
+      "vm_state": "active",
+      "power_state": 1,
+      "progress": 0,
+      "availability_zone": "nova",
+      "compute": "openstack-wf",
+      "instance_name": "instance-00000006",
+      "created": "2020-01-21T08:12:05Z",
+      "updated": "2020-07-04T11:38:47Z",
+      "metrics": {
+        "disk-device-allocation": 487424.0,
+        "disk-device-capacity": 487424.0,
+        "disk-device-read-bytes": 0.0,
+        "disk-device-read-bytes-rate": 0.0,
+        "disk-device-read-latency": 0.0,
+        "disk-device-read-requests": 0.0,
+        "disk-device-read-requests-rate": 0.0,
+        "disk-device-usage": 487424.0,
+        "disk-device-write-bytes": 0.0,
+        "disk-device-write-bytes-rate": 0.0,
+        "disk-device-write-latency": 0.0,
+        "disk-device-write-requests": 0.0,
+        "disk-device-write-requests-rate": 0.0,
+        "cpu": 2.212438979e+16,
+        "cpu-delta": 101130000000.0,
+        "cpu_util": 42.303688630662606,
+        "disk-allocation": 47157248.0,
+        "disk-capacity": 8590422016.0,
+        "disk-ephemeral-size": 0.0,
+        "disk-read-bytes": 81920.0,
+        "disk-read-bytes-rate": 0.0,
+        "disk-read-requests": 14.0,
+        "disk-read-requests-rate": 0.0,
+        "disk-root-size": 0.0,
+        "disk-usage": 47214592.0,
+        "disk-write-bytes": 2107356160.0,
+        "disk-write-bytes-rate": 0.0,
+        "disk-write-requests": 382460.0,
+        "disk-write-requests-rate": 0.0,
+        "memory": 8192.0,
+        "memory-resident": 3963.0,
+        "vcpus": 4.0
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "08d2d2af-e528-4e30-aec3-16b8104a6287",
+      "name": "TR-01",
+      "flavor": {
+        "id": "d7cfbc8a-0643-4587-b09a-bc47774c8c5b",
+        "name": "bgp.router",
+        "ram": 8192,
+        "vcpus": 4,
+        "disk": 0
+      },
+      "image": {
+        "id": "4cca1723-2565-4beb-9b89-0ba2f677b726",
+        "name": "csr1kv-9.16.09.04",
+        "min_ram": 0,
+        "min_disk": 0,
+        "size": 919863296,
+        "status": "active",
+        "container_format": "bare",
+        "file": "/v2/images/4cca1723-2565-4beb-9b89-0ba2f677b726/file",
+        "disk_format": "qcow2",
+        "visibility": "public",
+        "created_at": "2020-01-17T02:49:37Z",
+        "updated_at": "2020-01-17T02:49:43Z",
+        "metrics": {
+          "image-size": 919863296.0
+        }
+      },
+      "status": "ACTIVE",
+      "vm_state": "active",
+      "power_state": 1,
+      "progress": 0,
+      "availability_zone": "nova",
+      "compute": "openstack-wf",
+      "instance_name": "instance-00000007",
+      "created": "2020-01-24T02:12:21Z",
+      "updated": "2020-07-04T11:49:11Z",
+      "metrics": {
+        "disk-device-allocation": 499712.0,
+        "disk-device-capacity": 499712.0,
+        "disk-device-read-bytes": 0.0,
+        "disk-device-read-bytes-rate": 0.0,
+        "disk-device-read-latency": 0.0,
+        "disk-device-read-requests": 0.0,
+        "disk-device-read-requests-rate": 0.0,
+        "disk-device-usage": 499712.0,
+        "disk-device-write-bytes": 0.0,
+        "disk-device-write-bytes-rate": 0.0,
+        "disk-device-write-latency": 0.0,
+        "disk-device-write-requests": 0.0,
+        "disk-device-write-requests-rate": 0.0,
+        "compute-instance-booting-time": 34.280478,
+        "cpu": 2.522060326e+16,
+        "cpu-delta": 114460000000.0,
+        "cpu_util": 47.879760710626336,
+        "disk-allocation": 47038464.0,
+        "disk-capacity": 8590434304.0,
+        "disk-ephemeral-size": 0.0,
+        "disk-read-bytes": 98304.0,
+        "disk-read-bytes-rate": 0.0,
+        "disk-read-requests": 6.0,
+        "disk-read-requests-rate": 0.0,
+        "disk-root-size": 0.0,
+        "disk-usage": 47095808.0,
+        "disk-write-bytes": 2217266176.0,
+        "disk-write-bytes-rate": 0.0,
+        "disk-write-requests": 401444.0,
+        "disk-write-requests-rate": 0.0,
+        "memory": 8192.0,
+        "memory-resident": 3908.0,
+        "vcpus": 4.0
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "7ba14262-551e-4577-a77e-8510826ec84c",
+      "name": "TR-02",
+      "flavor": {
+        "id": "d7cfbc8a-0643-4587-b09a-bc47774c8c5b",
+        "name": "bgp.router",
+        "ram": 8192,
+        "vcpus": 4,
+        "disk": 0
+      },
+      "image": {
+        "id": "4cca1723-2565-4beb-9b89-0ba2f677b726",
+        "name": "csr1kv-9.16.09.04",
+        "min_ram": 0,
+        "min_disk": 0,
+        "size": 919863296,
+        "status": "active",
+        "container_format": "bare",
+        "file": "/v2/images/4cca1723-2565-4beb-9b89-0ba2f677b726/file",
+        "disk_format": "qcow2",
+        "visibility": "public",
+        "created_at": "2020-01-17T02:49:37Z",
+        "updated_at": "2020-01-17T02:49:43Z",
+        "metrics": {
+          "image-size": 919863296.0
+        }
+      },
+      "status": "ACTIVE",
+      "vm_state": "active",
+      "power_state": 1,
+      "progress": 0,
+      "availability_zone": "nova",
+      "compute": "openstack-wf",
+      "instance_name": "instance-00000008",
+      "created": "2020-01-24T02:29:11Z",
+      "updated": "2020-07-04T11:59:35Z",
+      "metrics": {
+        "disk-device-allocation": 499712.0,
+        "disk-device-capacity": 499712.0,
+        "disk-device-read-bytes": 0.0,
+        "disk-device-read-bytes-rate": 0.0,
+        "disk-device-read-latency": 0.0,
+        "disk-device-read-requests": 0.0,
+        "disk-device-read-requests-rate": 0.0,
+        "disk-device-usage": 499712.0,
+        "disk-device-write-bytes": 0.0,
+        "disk-device-write-bytes-rate": 0.0,
+        "disk-device-write-latency": 0.0,
+        "disk-device-write-requests": 0.0,
+        "disk-device-write-requests-rate": 0.0,
+        "compute-instance-booting-time": 26.829374,
+        "cpu": 2.296727769e+16,
+        "cpu-delta": 105600000000.0,
+        "cpu_util": 44.173534256877,
+        "disk-allocation": 46972928.0,
+        "disk-capacity": 8590434304.0,
+        "disk-ephemeral-size": 0.0,
+        "disk-read-bytes": 131072.0,
+        "disk-read-bytes-rate": 0.0,
+        "disk-read-requests": 17.0,
+        "disk-read-requests-rate": 0.0,
+        "disk-root-size": 0.0,
+        "disk-usage": 47030272.0,
+        "disk-write-bytes": 2284452864.0,
+        "disk-write-bytes-rate": 407.52664029638544,
+        "disk-write-requests": 406625.0,
+        "disk-write-requests-rate": 0.06628272288961601,
+        "memory": 8192.0,
+        "memory-resident": 3877.0,
+        "vcpus": 4.0
+      },
+      "project": "bgpnw2"
+    }
+  ],
+  "networks": [
+    {
+      "id": "92ce5ceb-ac3e-455a-a404-8b4f41cdd3d6",
+      "name": "external",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "faa8ddcf-dc8f-4c72-9b13-692eca71bd05",
+          "name": "external_sub",
+          "ip_version": 4,
+          "cidr": "172.16.1.0/24",
+          "gateway_ip": "172.16.1.254",
+          "dns_nameservers": [
+            "8.8.8.8"
+          ],
+          "allocation_pools": [
+            {
+              "start": "172.16.1.68",
+              "end": "172.16.1.72"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "a3553ea5-ba8d-4e07-98bc-eec79f205cba",
+      "name": "link-intgw-exgw-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "8afb980f-6938-4112-8763-99b56c6f5306",
+          "name": "link-intgw-exgw-a-1",
+          "ip_version": 4,
+          "cidr": "10.30.2.0/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.1",
+              "end": "10.30.2.2"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "11a05588-d7d1-4857-99e7-f8cf8d0d11a1",
+      "name": "link-intgw-exgw-a-2",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "7ace61a6-95a7-4191-a83f-73bd0c0c1b89",
+          "name": "link-intgw-exgw-a-2",
+          "ip_version": 4,
+          "cidr": "10.30.2.4/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.5",
+              "end": "10.30.2.6"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "466e6830-e89c-4d5a-b986-0de08d1cba45",
+      "name": "link-intgw-exgw-a-3",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "763a23c1-7803-4341-b5be-4497e77c96b7",
+          "name": "link-intgw-exgw-a-3",
+          "ip_version": 4,
+          "cidr": "10.30.2.8/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.9",
+              "end": "10.30.2.10"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "676db56b-659d-4814-be5a-e5a99e226baa",
+      "name": "link-intgw-exgw-b-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "717a60ce-9139-4622-86a6-d878684c7087",
+          "name": "link-intgw-exgw-b-1",
+          "ip_version": 4,
+          "cidr": "10.30.2.12/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.13",
+              "end": "10.30.2.14"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "c7aafaa7-9608-4d94-8320-5eebf0eceb41",
+      "name": "link-intgw-exgw-b-2",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "4ee8589e-b327-44f8-8f93-d7f89affe45d",
+          "name": "link-intgw-exgw-b-2",
+          "ip_version": 4,
+          "cidr": "10.30.2.16/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.17",
+              "end": "10.30.2.18"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "22710b4e-2b03-4345-af54-e3235c7aa637",
+      "name": "link-intgw-exgw-b-3",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "5827af32-779e-4529-acfc-865cfd4b1956",
+          "name": "link-intgw-exgw-b-3",
+          "ip_version": 4,
+          "cidr": "10.30.2.20/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.2.21",
+              "end": "10.30.2.22"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "6aa617da-c481-4e2a-9638-4a9711feca98",
+      "name": "link-intgw-ip-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "030b8a55-f436-4fba-b4ae-dc555e66affc",
+          "name": "link-intgw-ip-a-1",
+          "ip_version": 4,
+          "cidr": "10.21.1.0/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.21.1.1",
+              "end": "10.21.1.2"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "95cd8e66-c23b-48ce-8fee-a99b2ce38939",
+      "name": "link-intgw-ip-a-2",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "0d5bbf13-f53b-40cd-b73b-c8f77d2b67fc",
+          "name": "link-intgw-ip-a-2",
+          "ip_version": 4,
+          "cidr": "10.21.1.4/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.21.1.5",
+              "end": "10.21.1.6"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "1a415011-1e6a-402c-9327-47513c5815c7",
+      "name": "link-tr-intgw-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "16ad8a83-8146-4e09-94da-f3852680a434",
+          "name": "link-tr-intgw-a-1",
+          "ip_version": 4,
+          "cidr": "10.20.1.0/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.1",
+              "end": "10.20.1.2"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "a75f6c35-c5c7-44ce-b8fd-d3a7eb053da8",
+      "name": "link-tr-intgw-a-2",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "3c908947-88f2-482a-a1dd-6d8d4294d4bd",
+          "name": "link-tr-intgw-a-2",
+          "ip_version": 4,
+          "cidr": "10.20.1.4/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.5",
+              "end": "10.20.1.6"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "f8b17e98-3466-41a2-be38-c70fa418383c",
+      "name": "link-tr-intgw-a-3",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "8f22515a-de46-4b02-9f70-09e067fc8c0f",
+          "name": "link-tr-intgw-a-3",
+          "ip_version": 4,
+          "cidr": "10.20.1.8/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.9",
+              "end": "10.20.1.10"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "1b1097cf-129f-4d4d-90e3-5037c2ae044c",
+      "name": "link-tr-intgw-b-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "4f570d9a-d8bf-40df-9948-e5cd62a1ff96",
+          "name": "link-tr-intgw-b-1",
+          "ip_version": 4,
+          "cidr": "10.20.1.12/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.13",
+              "end": "10.20.1.14"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "d7c96741-9a10-478b-9b0b-1500854b9202",
+      "name": "link-tr-intgw-b-2",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "b6971ca0-82a4-4a7f-8caf-a157db9365e9",
+          "name": "link-tr-intgw-b-2",
+          "ip_version": 4,
+          "cidr": "10.20.1.16/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.17",
+              "end": "10.20.1.18"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "dc92564d-057c-4850-b05a-213f037d5f38",
+      "name": "link-tr-intgw-b-3",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "8cdebd7d-bfa3-43fa-8a48-ad1807dd23d2",
+          "name": "link-tr-intgw-b-3",
+          "ip_version": 4,
+          "cidr": "10.20.1.20/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.1.21",
+              "end": "10.20.1.22"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "d7ed05c4-f76c-4919-b558-f577fcff8f9d",
+      "name": "link-tr-ip-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "1008d22c-be6e-405a-9b7e-8d8d872cffe6",
+          "name": "link-tr-ip-a-1",
+          "ip_version": 4,
+          "cidr": "10.21.1.8/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.21.1.9",
+              "end": "10.21.1.10"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "eb3f6c29-3989-4f8f-84c8-ff233a71bb4a",
+      "name": "link-tr-ssm-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "e9829d07-8797-404f-8510-67bf8c8e70ff",
+          "name": "link-tr-ssm-a-1",
+          "ip_version": 4,
+          "cidr": "10.30.4.0/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.4.1",
+              "end": "10.30.4.2"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "8db25765-28c8-467a-9fcd-a5d93b33f0cc",
+      "name": "link-tr-ssm-b-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "fa8b1b06-7990-4818-9976-7948dc8fb7f7",
+          "name": "link-tr-ssm-b-1",
+          "ip_version": 4,
+          "cidr": "10.30.4.4/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.30.4.5",
+              "end": "10.30.4.6"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    },
+    {
+      "id": "7d6b0206-9f2d-4c6d-982b-cacab9060e05",
+      "name": "link-tr-tr-a-1",
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "subnets": [
+        {
+          "id": "06256357-6b46-4596-a82e-a62c11b6469e",
+          "name": "link-tr-tr-a-1",
+          "ip_version": 4,
+          "cidr": "10.20.2.0/30",
+          "gateway_ip": null,
+          "dns_nameservers": [
+
+          ],
+          "allocation_pools": [
+            {
+              "start": "10.20.2.1",
+              "end": "10.20.2.2"
+            }
+          ],
+          "host_routes": [
+
+          ],
+          "enable_dhcp": false
+        }
+      ],
+      "metrics": {
+      },
+      "project": "bgpnw2"
+    }
+  ],
+  "ports": [
+    {
+      "id": "f4a5ce98-a32f-4fe1-990c-438302460336",
+      "name": "IntGW-01",
+      "description": "",
+      "mac_address": "fa:16:3e:13:19:42",
+      "ip_address": [
+        {
+          "ip_address": "172.16.1.70"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "external",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T06:53:44Z",
+      "updated_at": "2020-02-03T01:43:17Z",
+      "metrics": {
+        "network-incoming-bytes": 17198575007.0,
+        "network-incoming-bytes-rate": 2269.8049257680404,
+        "network-incoming-packets": 250865242.0,
+        "network-incoming-packets-drop": 7071.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 35.448856041660285,
+        "network-outgoing-bytes": 282673133806.0,
+        "network-outgoing-bytes-rate": 45568.087473818276,
+        "network-outgoing-packets": 455439079.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 73.26137526671434
+      }
+    },
+    {
+      "id": "dbe48d71-518a-4df5-8e5d-dfdba2185451",
+      "name": "IntGW-02",
+      "description": "",
+      "mac_address": "fa:16:3e:1c:e9:6b",
+      "ip_address": [
+        {
+          "ip_address": "172.16.1.71"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "external",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T06:53:49Z",
+      "updated_at": "2020-02-18T09:38:36Z",
+      "metrics": {
+        "network-incoming-bytes": 16173603403.0,
+        "network-incoming-bytes-rate": 2201.075780456798,
+        "network-incoming-packets": 238560186.0,
+        "network-incoming-packets-drop": 6796.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 34.17744827423877,
+        "network-outgoing-bytes": 276163195463.0,
+        "network-outgoing-bytes-rate": 45563.93506605384,
+        "network-outgoing-packets": 445794733.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 73.26137526671434
+      }
+    },
+    {
+      "id": "43d53aad-b0ba-4edd-9efb-f16c9dac4b2f",
+      "name": "RR-01",
+      "description": "",
+      "mac_address": "fa:16:3e:f9:5f:80",
+      "ip_address": [
+        {
+          "ip_address": "172.16.1.72"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "RR-01",
+      "network": "external",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T06:53:54Z",
+      "updated_at": "2020-02-03T01:45:56Z",
+      "metrics": {
+        "network-incoming-bytes": 14264353091.0,
+        "network-incoming-bytes-rate": 1766.3888382274295,
+        "network-incoming-packets": 198751514.0,
+        "network-incoming-packets-drop": 4052.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 26.34825307485368,
+        "network-outgoing-bytes": 189292045543.0,
+        "network-outgoing-bytes-rate": 29505.301728933668,
+        "network-outgoing-packets": 308639538.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 47.796457319288855
+      }
+    },
+    {
+      "id": "c45050d1-31d0-41a9-b41d-f00b84db8949",
+      "name": "TR-01",
+      "description": "",
+      "mac_address": "fa:16:3e:45:b5:e6",
+      "ip_address": [
+        {
+          "ip_address": "172.16.1.68"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "external",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:16:22Z",
+      "updated_at": "2020-02-03T01:45:04Z",
+      "metrics": {
+        "network-incoming-bytes": 5871938388.0,
+        "network-incoming-bytes-rate": 479.26127922470334,
+        "network-incoming-packets": 53929819.0,
+        "network-incoming-packets-drop": 3821.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 3.546558509123162,
+        "network-outgoing-bytes": 15855424729.0,
+        "network-outgoing-bytes-rate": 1500.0573049015072,
+        "network-outgoing-packets": 15558677.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1.442348868115897
+      }
+    },
+    {
+      "id": "651efc7e-68cf-4f7e-9153-fcd33c687c70",
+      "name": "TR-02",
+      "description": "",
+      "mac_address": "fa:16:3e:d9:2b:45",
+      "ip_address": [
+        {
+          "ip_address": "172.16.1.69"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "external",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T06:45:51Z",
+      "updated_at": "2020-02-03T01:44:21Z",
+      "metrics": {
+        "network-incoming-bytes": 5769161068.0,
+        "network-incoming-bytes-rate": 469.79857081228585,
+        "network-incoming-packets": 52424478.0,
+        "network-incoming-packets-drop": 3890.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 3.429455162123812,
+        "network-outgoing-bytes": 13169403558.0,
+        "network-outgoing-bytes-rate": 1246.7604312710796,
+        "network-outgoing-packets": 12933300.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1.177089306163548
+      }
+    },
+    {
+      "id": "39f4dc0c-f7a8-4572-b235-5f4134ef71b2",
+      "name": "link-intgw-exgw-a-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:23:68:39",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.1"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-intgw-exgw-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:58:07Z",
+      "updated_at": "2020-02-03T01:43:33Z",
+      "metrics": {
+        "network-incoming-bytes": 11100208240146.0,
+        "network-incoming-bytes-rate": 1840728.7885837369,
+        "network-incoming-packets": 9312736042.0,
+        "network-incoming-packets-drop": 10777805.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1556.2031073239293,
+        "network-outgoing-bytes": 4722287241975.0,
+        "network-outgoing-bytes-rate": 1252530.2353469192,
+        "network-outgoing-packets": 3963019190.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1040.4972104807105
+      }
+    },
+    {
+      "id": "5058c9d0-9d10-44f6-a151-ab21756013e6",
+      "name": "link-intgw-exgw-a-2-x",
+      "description": "",
+      "mac_address": "fa:16:3e:88:d3:cb",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.5"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-intgw-exgw-a-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:58:40Z",
+      "updated_at": "2020-02-03T01:43:26Z",
+      "metrics": {
+        "network-incoming-bytes": 11098079934402.0,
+        "network-incoming-bytes-rate": 1860773.5110038184,
+        "network-incoming-packets": 9310944016.0,
+        "network-incoming-packets-drop": 10777880.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1573.132905490121,
+        "network-outgoing-bytes": 4059609609974.0,
+        "network-outgoing-bytes-rate": 1252550.1936939158,
+        "network-outgoing-packets": 3406994981.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1040.5137892033324
+      }
+    },
+    {
+      "id": "34c51e98-e909-4f47-8751-a970fd98f00b",
+      "name": "link-intgw-exgw-a-3-x",
+      "description": "",
+      "mac_address": "fa:16:3e:63:3a:3e",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.9"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-intgw-exgw-a-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:59:08Z",
+      "updated_at": "2020-02-03T01:43:24Z",
+      "metrics": {
+        "network-incoming-bytes": 11097367474444.0,
+        "network-incoming-bytes-rate": 1830456.3877548303,
+        "network-incoming-packets": 9310336694.0,
+        "network-incoming-packets-drop": 10782561.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1547.4872724972633,
+        "network-outgoing-bytes": 4040457888779.0,
+        "network-outgoing-bytes-rate": 1250947.565219801,
+        "network-outgoing-packets": 3390846155.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1039.9003764663175
+      }
+    },
+    {
+      "id": "1c4ab3de-a453-45c1-9175-fd99b12a8ad3",
+      "name": "link-intgw-exgw-b-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:f0:2b:ea",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.13"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-intgw-exgw-b-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:59:52Z",
+      "updated_at": "2020-02-18T09:38:39Z",
+      "metrics": {
+        "network-incoming-bytes": 11097949761897.0,
+        "network-incoming-bytes-rate": 1867960.1226194357,
+        "network-incoming-packets": 9310832543.0,
+        "network-incoming-packets-drop": 10778172.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1579.25573763323,
+        "network-outgoing-bytes": 4753220486821.0,
+        "network-outgoing-bytes-rate": 1253270.1173900745,
+        "network-outgoing-packets": 3988939005.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1041.1272019403473
+      }
+    },
+    {
+      "id": "9b0637c0-3785-4112-8e04-e8b34b30eb95",
+      "name": "link-intgw-exgw-b-2-x",
+      "description": "",
+      "mac_address": "fa:16:3e:30:69:ae",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.17"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-intgw-exgw-b-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T03:00:16Z",
+      "updated_at": "2020-02-18T09:38:38Z",
+      "metrics": {
+        "network-incoming-bytes": 11097286647946.0,
+        "network-incoming-bytes-rate": 1849059.5080513868,
+        "network-incoming-packets": 9310269646.0,
+        "network-incoming-packets-drop": 10778206.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1563.2460371934617,
+        "network-outgoing-bytes": 3565258909221.0,
+        "network-outgoing-bytes-rate": 1231794.9360215263,
+        "network-outgoing-packets": 2992255653.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1023.2884963990517
+      }
+    },
+    {
+      "id": "96ae9a3b-0e96-45b1-8be6-dc0af9a79d75",
+      "name": "link-intgw-exgw-b-3-x",
+      "description": "",
+      "mac_address": "fa:16:3e:34:13:5d",
+      "ip_address": [
+        {
+          "ip_address": "10.30.2.21"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-intgw-exgw-b-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T03:00:47Z",
+      "updated_at": "2020-02-18T09:38:42Z",
+      "metrics": {
+        "network-incoming-bytes": 11096480250657.0,
+        "network-incoming-bytes-rate": 1878253.1753944214,
+        "network-incoming-packets": 9309589300.0,
+        "network-incoming-packets-drop": 10776590.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 1587.988301509467,
+        "network-outgoing-bytes": 4008429135830.0,
+        "network-outgoing-bytes-rate": 1245820.3127583482,
+        "network-outgoing-packets": 3363965170.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 1035.3909639131277
+      }
+    },
+    {
+      "id": "f5c6fa59-f1fd-41a8-b8e7-800eeffb8c94",
+      "name": "link-intgw-ip-a-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:30:32:b4",
+      "ip_address": [
+        {
+          "ip_address": "10.21.1.1"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-intgw-ip-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T08:02:30Z",
+      "updated_at": "2020-02-03T01:43:28Z",
+      "metrics": {
+        "network-incoming-bytes": 254826.0,
+        "network-incoming-bytes-rate": 0.0,
+        "network-incoming-packets": 3639.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.0,
+        "network-outgoing-bytes": 966.0,
+        "network-outgoing-bytes-rate": 0.0,
+        "network-outgoing-packets": 12.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.0
+      }
+    },
+    {
+      "id": "bad443bf-8d94-4124-9505-3545711bb411",
+      "name": "link-intgw-ip-a-2-x",
+      "description": "",
+      "mac_address": "fa:16:3e:63:9e:3d",
+      "ip_address": [
+        {
+          "ip_address": "10.21.1.5"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-intgw-ip-a-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T08:02:33Z",
+      "updated_at": "2020-02-18T09:38:34Z",
+      "metrics": {
+        "network-incoming-bytes": 229766.0,
+        "network-incoming-bytes-rate": 0.0,
+        "network-incoming-packets": 3281.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.0,
+        "network-outgoing-bytes": 1216.0,
+        "network-outgoing-bytes-rate": 0.0,
+        "network-outgoing-packets": 14.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.0
+      }
+    },
+    {
+      "id": "ff98fd62-912e-48dd-b33e-593da43ec405",
+      "name": "link-tr-intgw-a-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:1f:32:e1",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.1"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-intgw-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:12Z",
+      "updated_at": "2020-02-03T01:45:07Z",
+      "metrics": {
+        "network-incoming-bytes": 8549750469838.0,
+        "network-incoming-bytes-rate": 13.46360793415894,
+        "network-incoming-packets": 7184528877.0,
+        "network-incoming-packets-drop": 571465.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.13383239657068502,
+        "network-outgoing-bytes": 20986086941398.0,
+        "network-outgoing-bytes-rate": 2808071.041669161,
+        "network-outgoing-packets": 17607108714.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 2332.6594303637116
+      }
+    },
+    {
+      "id": "b7e8ca03-cefa-4f23-bd7b-b2795550d881",
+      "name": "link-tr-intgw-a-1-y",
+      "description": "",
+      "mac_address": "fa:16:3e:11:b0:44",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.2"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-tr-intgw-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:41Z",
+      "updated_at": "2020-02-03T01:43:19Z",
+      "metrics": {
+        "network-incoming-bytes": 20973184120243.0,
+        "network-incoming-bytes-rate": 2784021.582678157,
+        "network-incoming-packets": 17596286604.0,
+        "network-incoming-packets-drop": 563358.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 2353.6601713399295,
+        "network-outgoing-bytes": 8560473324767.0,
+        "network-outgoing-bytes-rate": 13.5790431328845,
+        "network-outgoing-packets": 7193528391.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.132629780976174
+      }
+    },
+    {
+      "id": "e03d6d9a-f02a-4dd0-a173-39e54357b1e3",
+      "name": "link-tr-intgw-a-2-x",
+      "description": "",
+      "mac_address": "fa:16:3e:7d:bb:34",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.5"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-intgw-a-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:15Z",
+      "updated_at": "2020-02-03T01:45:05Z",
+      "metrics": {
+        "network-incoming-bytes": 8451419796822.0,
+        "network-incoming-bytes-rate": 314050.7241677938,
+        "network-incoming-packets": 7101635323.0,
+        "network-incoming-packets-drop": 589246.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 265.75768149023844,
+        "network-outgoing-bytes": 19852580198657.0,
+        "network-outgoing-bytes-rate": 2804601.319879644,
+        "network-outgoing-packets": 16656654470.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 2329.824468795346
+      }
+    },
+    {
+      "id": "6f66ed82-b23a-4c46-ae16-4f3698cca7bc",
+      "name": "link-tr-intgw-a-2-y",
+      "description": "",
+      "mac_address": "fa:16:3e:be:0c:db",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.6"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-tr-intgw-a-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:44Z",
+      "updated_at": "2020-02-18T09:38:33Z",
+      "metrics": {
+        "network-incoming-bytes": 19839443262884.0,
+        "network-incoming-bytes-rate": 2780818.8211078956,
+        "network-incoming-packets": 16645508829.0,
+        "network-incoming-packets-drop": 573411.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 2351.000252458087,
+        "network-outgoing-bytes": 8462158680192.0,
+        "network-outgoing-bytes-rate": 317162.47894390207,
+        "network-outgoing-packets": 7110648428.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 263.71774074850083
+      }
+    },
+    {
+      "id": "a7b6bf86-682a-421c-be48-6e0a2b4ef4ae",
+      "name": "link-tr-intgw-a-3-x",
+      "description": "",
+      "mac_address": "fa:16:3e:c4:8c:8c",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.9"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-intgw-a-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:19Z",
+      "updated_at": "2020-02-03T01:45:16Z",
+      "metrics": {
+        "network-incoming-bytes": 184136292.0,
+        "network-incoming-bytes-rate": 14.360075046914282,
+        "network-incoming-packets": 1837664.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.15056144614202102,
+        "network-outgoing-bytes": 417967192.0,
+        "network-outgoing-bytes-rate": 13.5790431328845,
+        "network-outgoing-packets": 2105111.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.132629780976174
+      }
+    },
+    {
+      "id": "85b72c18-bf6b-4c83-8478-1b8d1b02096b",
+      "name": "link-tr-intgw-a-3-y",
+      "description": "",
+      "mac_address": "fa:16:3e:ba:7b:13",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.10"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "RR-01",
+      "network": "link-tr-intgw-a-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:47Z",
+      "updated_at": "2020-02-03T01:45:54Z",
+      "metrics": {
+        "network-incoming-bytes": 418120670.0,
+        "network-incoming-bytes-rate": 13.46360793415894,
+        "network-incoming-packets": 2107749.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.13383239657068502,
+        "network-outgoing-bytes": 183969578.0,
+        "network-outgoing-bytes-rate": 14.483196436430447,
+        "network-outgoing-packets": 1834830.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.149208503598196
+      }
+    },
+    {
+      "id": "dab2fe95-7384-46e3-9136-9ceb06f2eb9d",
+      "name": "link-tr-intgw-b-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:7d:22:70",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.13"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "link-tr-intgw-b-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:22Z",
+      "updated_at": "2020-02-03T01:44:17Z",
+      "metrics": {
+        "network-incoming-bytes": 8407905393810.0,
+        "network-incoming-bytes-rate": 11.355250094901004,
+        "network-incoming-packets": 7065159505.0,
+        "network-incoming-packets-drop": 592368.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.10037429742801401,
+        "network-outgoing-bytes": 20621132905379.0,
+        "network-outgoing-bytes-rate": 2816176.2569844797,
+        "network-outgoing-packets": 17301378659.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 2339.4235491934965
+      }
+    },
+    {
+      "id": "8db38e2b-127d-40e7-b1b6-93d899647f22",
+      "name": "link-tr-intgw-b-1-y",
+      "description": "",
+      "mac_address": "fa:16:3e:2a:6d:b9",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.14"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-01",
+      "network": "link-tr-intgw-b-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:50Z",
+      "updated_at": "2020-02-03T01:43:30Z",
+      "metrics": {
+        "network-incoming-bytes": 20608043835187.0,
+        "network-incoming-bytes-rate": 2792018.318342577,
+        "network-incoming-packets": 17290399698.0,
+        "network-incoming-packets-drop": 546744.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 2360.4521654658915,
+        "network-outgoing-bytes": 8418604929644.0,
+        "network-outgoing-bytes-rate": 11.452608511581994,
+        "network-outgoing-packets": 7074139686.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.09947233573213
+      }
+    },
+    {
+      "id": "8cabe04d-dad7-4c33-af53-a3f4da488f83",
+      "name": "link-tr-intgw-b-2-x",
+      "description": "",
+      "mac_address": "fa:16:3e:e3:c5:07",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.17"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "link-tr-intgw-b-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:25Z",
+      "updated_at": "2020-02-03T01:44:15Z",
+      "metrics": {
+        "network-incoming-bytes": 8503358372927.0,
+        "network-incoming-bytes-rate": 318159.36575549416,
+        "network-incoming-packets": 7145638003.0,
+        "network-incoming-packets-drop": 549722.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 269.38788524721826,
+        "network-outgoing-bytes": 19950770738686.0,
+        "network-outgoing-bytes-rate": 2796535.117105015,
+        "network-outgoing-packets": 16738473359.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 2323.076928688183
+      }
+    },
+    {
+      "id": "f7bf1a22-8146-4df9-b718-3ab0360873a1",
+      "name": "link-tr-intgw-b-2-y",
+      "description": "",
+      "mac_address": "fa:16:3e:88:c8:a6",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.18"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "IntGW-02",
+      "network": "link-tr-intgw-b-2",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:54Z",
+      "updated_at": "2020-02-18T09:38:31Z",
+      "metrics": {
+        "network-incoming-bytes": 19938065779084.0,
+        "network-incoming-bytes-rate": 2772643.0908432957,
+        "network-incoming-packets": 16727816269.0,
+        "network-incoming-packets-drop": 581532.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 2344.0409678364113,
+        "network-outgoing-bytes": 8513482479404.0,
+        "network-outgoing-bytes-rate": 320248.5550918607,
+        "network-outgoing-packets": 7154134886.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 266.43665125851237
+      }
+    },
+    {
+      "id": "f2b1c19f-b429-48b5-b109-29de1e0a4172",
+      "name": "link-tr-intgw-b-3-x",
+      "description": "",
+      "mac_address": "fa:16:3e:18:9d:27",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.21"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "link-tr-intgw-b-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:28Z",
+      "updated_at": "2020-02-03T01:44:24Z",
+      "metrics": {
+        "network-incoming-bytes": 192550433.0,
+        "network-incoming-bytes-rate": 13.46360793415894,
+        "network-incoming-packets": 2009628.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.13383239657068502,
+        "network-outgoing-bytes": 256892489.0,
+        "network-outgoing-bytes-rate": 15.002247406984601,
+        "network-outgoing-packets": 1794469.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.149208503598196
+      }
+    },
+    {
+      "id": "8caa2c05-024d-4a63-959c-25d147343d33",
+      "name": "link-tr-intgw-b-3-y",
+      "description": "",
+      "mac_address": "fa:16:3e:ef:f7:4b",
+      "ip_address": [
+        {
+          "ip_address": "10.20.1.22"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "RR-01",
+      "network": "link-tr-intgw-b-3",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:58Z",
+      "updated_at": "2020-02-03T01:45:52Z",
+      "metrics": {
+        "network-incoming-bytes": 257073394.0,
+        "network-incoming-bytes-rate": 14.874713574607163,
+        "network-incoming-packets": 1797390.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.15056144614202102,
+        "network-outgoing-bytes": 192384026.0,
+        "network-outgoing-bytes-rate": 13.5790431328845,
+        "network-outgoing-packets": 2006822.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.132629780976174
+      }
+    },
+    {
+      "id": "24032c75-1b88-42c0-a1fa-3dd5116aa0fa",
+      "name": "link-tr-ip-a-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:99:8e:6a",
+      "ip_address": [
+        {
+          "ip_address": "10.21.1.9"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-ip-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T08:02:36Z",
+      "updated_at": "2020-02-03T01:45:14Z",
+      "metrics": {
+        "network-incoming-bytes": 254826.0,
+        "network-incoming-bytes-rate": 0.0,
+        "network-incoming-packets": 3639.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.0,
+        "network-outgoing-bytes": 240.0,
+        "network-outgoing-bytes-rate": 0.0,
+        "network-outgoing-packets": 4.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.0
+      }
+    },
+    {
+      "id": "287ebb14-bb4d-4adb-8038-7edc30e1df01",
+      "name": "link-tr-ssm-a-1-y",
+      "description": "",
+      "mac_address": "fa:16:3e:93:89:02",
+      "ip_address": [
+        {
+          "ip_address": "10.30.4.2"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-ssm-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:10:14Z",
+      "updated_at": "2020-02-03T01:45:12Z",
+      "metrics": {
+        "network-incoming-bytes": 40839069460688.0,
+        "network-incoming-bytes-rate": 5564921.799679643,
+        "network-incoming-packets": 34261549112.0,
+        "network-incoming-packets-drop": 32343915.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 4704.593507599731,
+        "network-outgoing-bytes": 16946705001566.0,
+        "network-outgoing-bytes-rate": 316865.01250703546,
+        "network-outgoing-packets": 14238924465.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 263.4856386317925
+      }
+    },
+    {
+      "id": "491fd1dd-f34e-462c-a2bf-59916cf5c387",
+      "name": "link-tr-ssm-b-1-y",
+      "description": "",
+      "mac_address": "fa:16:3e:08:b6:93",
+      "ip_address": [
+        {
+          "ip_address": "10.30.4.6"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "link-tr-ssm-b-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-24T02:26:22Z",
+      "updated_at": "2020-02-03T01:44:13Z",
+      "metrics": {
+        "network-incoming-bytes": 40572410603776.0,
+        "network-incoming-bytes-rate": 5564922.961766641,
+        "network-incoming-packets": 34037842109.0,
+        "network-incoming-packets-drop": 32322697.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 4704.610236649302,
+        "network-outgoing-bytes": 16850642776220.0,
+        "network-outgoing-bytes-rate": 320961.59717676457,
+        "network-outgoing-packets": 14158314194.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 266.96717038241707
+      }
+    },
+    {
+      "id": "5804bf76-7b9e-4f32-bb12-110916989c07",
+      "name": "link-tr-tr-a-1-x",
+      "description": "",
+      "mac_address": "fa:16:3e:d4:e6:a8",
+      "ip_address": [
+        {
+          "ip_address": "10.20.2.1"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-01",
+      "network": "link-tr-tr-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:41:32Z",
+      "updated_at": "2020-02-03T01:45:18Z",
+      "metrics": {
+        "network-incoming-bytes": 243480568.0,
+        "network-incoming-bytes-rate": 11.355250094901004,
+        "network-incoming-packets": 1384643.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.10037429742801401,
+        "network-outgoing-bytes": 246957610.0,
+        "network-outgoing-bytes-rate": 11.452608511581994,
+        "network-outgoing-packets": 1511210.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.09947233573213
+      }
+    },
+    {
+      "id": "e5f9fd52-471f-4f1a-a999-5e4c0e8971db",
+      "name": "link-tr-tr-a-1-y",
+      "description": "",
+      "mac_address": "fa:16:3e:3e:5b:2f",
+      "ip_address": [
+        {
+          "ip_address": "10.20.2.2"
+        }
+      ],
+      "admin_state_up": true,
+      "status": "ACTIVE",
+      "device": "TR-02",
+      "network": "link-tr-tr-a-1",
+      "compute": "openstack-wf",
+      "created_at": "2020-01-21T07:42:01Z",
+      "updated_at": "2020-02-03T01:44:20Z",
+      "metrics": {
+        "network-incoming-bytes": 247029424.0,
+        "network-incoming-bytes-rate": 11.355250094901004,
+        "network-incoming-packets": 1513324.0,
+        "network-incoming-packets-drop": 0.0,
+        "network-incoming-packets-error": 0.0,
+        "network-incoming-packets-rate": 0.10037429742801401,
+        "network-outgoing-bytes": 243312668.0,
+        "network-outgoing-bytes-rate": 11.452608511581994,
+        "network-outgoing-packets": 1381659.0,
+        "network-outgoing-packets-drop": 0.0,
+        "network-outgoing-packets-error": 0.0,
+        "network-outgoing-packets-rate": 0.09947233573213
+      }
+    }
+  ],
+  "time": 1593977280,
+  "tag": "virtual-infrastructure-bgpnw2",
+  "@log_name": "virtual-infrastructure-bgpnw2"
+}
