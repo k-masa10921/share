@@ -2,7 +2,11 @@ import openpyxl
 import requests
 import csv
 import sys
-path = "C:/Users/k_mas/Desktop/"
+print("username??")
+user = input()
+path = "C:/Users/"+user+"/Desktop/"
+path_w = "C:/Users/"+user+"/Google ドライブ/バイト/ParaLux/委託/URL/"
+print("filename??")
 name = input()
 wb_r = openpyxl.load_workbook(path+name+"_xml用URL.xlsx")
 print(wb_r.sheetnames)
@@ -51,5 +55,5 @@ for sheet_r in wb_r:
                     sheet_active = wb_w["timeput"]
                     sheet_active.append([link])
                     continue
-wb_w.save(name+"_result.xlsx")
+wb_w.save(path_w+name+"_result.xlsx")
 wb_w.close()
