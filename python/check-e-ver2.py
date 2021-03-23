@@ -52,7 +52,7 @@ for sheet_r in wb_r:
                         sheet_active.append([link])
                 except requests.exceptions.Timeout as error:
                     print("timeout")
-                    sheet_active = wb_w["timeput"]
+                    sheet_active = wb_w["timeout"]
                     sheet_active.append([link])
                     continue
 wb_w.save(path_w+name+"_result.xlsx")
