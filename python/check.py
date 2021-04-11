@@ -13,9 +13,9 @@ print(wb_r.sheetnames)
 
 wb_w = openpyxl.Workbook()
 default_ws = wb_w.worksheets[0]
-default_ws.title = "トップ"
-sheet_w = wb_w.create_sheet(title='カテゴリ')
-sheet_w = wb_w.create_sheet(title='独自ページ')
+default_ws.title = "トップ・カテゴリ"
+# sheet_w = wb_w.create_sheet(title='カテゴリ')
+# sheet_w = wb_w.create_sheet(title='独自ページ')
 sheet_w = wb_w.create_sheet(title='商品詳細')
 sheet_w = wb_w.create_sheet(title='not found')
 sheet_w = wb_w.create_sheet(title='timeout')
@@ -32,15 +32,15 @@ for sheet_r in wb_r:
                     print(resp.status_code)
                     if(resp.status_code == 200):
                         if(wb_r.index(sheet_r) == 0):
-                            sheet_active = wb_w["トップ"]
+                            sheet_active = wb_w["トップ・カテゴリ"]
                             sheet_active.append([link])
+                        # elif(wb_r.index(sheet_r) == 1):
+                        #     sheet_active = wb_w["カテゴリ"]
+                        #     sheet_active.append([link])
+                        # elif(wb_r.index(sheet_r) == 2):
+                        #     sheet_active = wb_w["独自ページ"]
+                        #     sheet_active.append([link])
                         elif(wb_r.index(sheet_r) == 1):
-                            sheet_active = wb_w["カテゴリ"]
-                            sheet_active.append([link])
-                        elif(wb_r.index(sheet_r) == 2):
-                            sheet_active = wb_w["独自ページ"]
-                            sheet_active.append([link])
-                        elif(wb_r.index(sheet_r) == 3):
                             sheet_active = wb_w["商品詳細"]
                             sheet_active.append([link])
                     elif(resp.status_code == 404):
