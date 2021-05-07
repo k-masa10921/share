@@ -1,0 +1,71 @@
+body {
+  background-color: #000000;
+}
+li {
+  list-style: none;
+}
+.debug-text {
+  color: white;
+  text-align: center;
+}
+.change-btn-wrapper {
+  display: flex;
+}
+.change-btn {
+  display: none;
+  visibility: hidden;
+  background-color: gray;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 1000;
+}
+.prev {
+  position: absolute;
+  left: 25%;
+}
+.next {
+  position: absolute;
+  right: 25%;
+}
+.change-btn:hover {
+  opacity: 70%;
+  color: white;
+  transition: 0.5s;
+}
+.index-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.index-btn {
+  background-color: gray;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  margin: 10px;
+  font-weight: 1000;
+}
+.index-btn:hover {
+  opacity: 70%;
+  color: white;
+  transition: 0.5s;
+}
+img {
+  visibility: hidden;
+  opacity: 0;
+  width: 700px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.active {
+  visibility: visible;
+  display: block;
+}
+.fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  transform: translateY(10px);
+}

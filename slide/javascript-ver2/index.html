@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>javascrips-ver2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <p id="debug" class="debug-text">debug</p>
+    <div class="change-btn-wrapper">
+        <button class="change-btn prev" id="prev-btn">← BACK</button>
+        <button class="change-btn next" id="next-btn"> NEXT →</button>
+    </div>
+    <ul class="index-btn-wrapper" id="index-btn" onclick="index_clicked(event)">
+        <li class="index-btn">0</li>
+        <li class="index-btn">1</li>
+        <li class="index-btn">2</li>
+        <li class="index-btn">3</li>  
+    </ul>
+    <div id="slides">
+        <img class="fadein" src="../assets/img_1.jpeg" alt="黒川温泉">
+        <img src="../assets/img_2.jpeg" alt="棚田">
+        <img src="../assets/img_3.jpeg" alt="結婚式">
+        <img src="../assets/img_4.jpeg" alt="葉っぱ">
+    </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
