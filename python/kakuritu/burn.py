@@ -1,13 +1,13 @@
 import random
 import math
 def f(x,y,z):
-    return 7*x + 12*y + 16*z - 4*x*y - 8*x*z - 16*y*z
+    return 2*x+10*x*y*z+16*z+3*y+7*y*z-30*x*z
 
-T = 10
+T = 100
 
 x = 1
 y = 1
-z = 0
+z = 1
 
 for m in range(50):
     for n in range(50):
